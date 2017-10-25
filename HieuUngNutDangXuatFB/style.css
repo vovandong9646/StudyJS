@@ -1,0 +1,46 @@
+*{margin:0px;padding:0px;}
+
+.danhsach {
+    right: -15px;
+    position: absolute;
+    width: 200px;
+    margin-top: 10px;
+    visibility: hidden;
+    opacity:0;
+    transition:0.3s;
+}
+
+#tamgiac{
+	cursor:pointer;
+}
+
+.doimau{
+	color:white;
+}
+
+.hienra{
+	visibility:visible;
+	opacity:1;
+}
+
+.danhsach:after {
+    content: "";
+    position: absolute;
+    border: 10px rgba(255, 215, 0, 0) solid;
+    top: -19px;
+    right: 12px;
+    border-bottom-color: white;
+}
+
+.div1khoi {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+}
+
+.thanhHeader {
+    background: #4267b2;
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
